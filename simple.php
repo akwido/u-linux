@@ -12,6 +12,8 @@
 <?php
 
 	echo "--------git-------------";
+	echo "<br><br>"
+	echo  "git config --global"	
 
 ?>
 </body>
