@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Эффект перекатывания</title>
+    <style>
+          .first_block {
+              display: inline-block;
+              width:300px;
+              height:400px;
+              border:4px red dashed;
+              padding:0px; 
+              background-color: yellow;
+          }
+          .second_block {
+              display: none;
+
+          }
+          .first_block:hover .second_block {
+              display: block;
+              background-color: #ccc;
+              width:300px;
+              height:400px;
+                 padding:50px;
+             overflow: hidden;  /* только для блочных элементов */ 
+
+
+            }
+          .3_block{
+              border:1px red dashed;
+              padding:260px;
+              background-color: blue; 
+
+          }  
+    </style>
+ </head>
+  <body>
+    <h1>Sample 4</h1>
+  
+<div class='first_block'>
+    <div class='second_block'>
+        <b>Текст</b>
+        <div class='3_block'>
+          <p> 
+            Пенопласт или точнее вспененный пенополистирол является современным экологически чистым и долговечным строительным материалом. Благодаря превосходным качествам он обеспечивает отличную теплоизоляцию и пожаробезопасность, так как содержит способствующий самозатуханию антипирен. Пенополистирол состоит из гранул, размер которых составляет 3-10 мм. В состав гранул входит 98% воздуха и 2% полистирола. Пенопласт формируется под воздействием высоких температур, при которых гранулы спекаются друг с другом.
+          </p> 
+      </div>
+    </div>
+</div>
+
+ </body>
+</html>

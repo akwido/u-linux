@@ -9,12 +9,16 @@
 </style>
 
    <body>
+   
 <?php
 
-	echo "--------git-------------";
-	echo "<br><br>";
-	//echo  "<b>git config --list<b>";
-	echo  "git config --list";
+
+
+$a =2;
+$b =3;
+$x = $a+$b;
+print ($a."+".$b."=".$x."<br />");
+echo "<b style='color:green;'>Hello!</b> PHP is work !!!";
 
 ?>
 </body>
