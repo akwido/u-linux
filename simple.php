@@ -5,7 +5,7 @@
       <title>simple</title>
    </head>
 <style>
-	body{background:#ADFF2F}
+	body{background:#B8860B}
 </style>
 
    <body>
