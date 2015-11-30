@@ -13,7 +13,8 @@
 
 	echo "--------git-------------";
 	echo "<br><br>"
-	echo  "git config --global"	
+	//echo  "<b>git config --list<b>";
+	echo  "git config --list";
 
 ?>
 </body>
